@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "bootstrap": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-include-template": "0.2.3",
+    "gulp-less": "^3.3.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^2.0.1",
+    "jquery": "^3.1.1"
+  }
+}

@@ -1,0 +1,311 @@
+
+/*      5.3: Services section ("What we do")
+/* ---------------------------------------------- */
+
+@color-service-info : #5BB12F;
+@color-service-telcom: #FDEE00;
+@color-service-embedded: #FF432E;
+
+.services-item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 30px 30px 0;
+    border-style: solid;
+    border-color: #fff #fff rgba(254,82,76, 1) rgba(254,82,76, 1); /* Primary color, can be changed via colors.css */
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: border-color .2s ease-in-out;
+       -moz-transition: border-color .2s ease-in-out;
+            transition: border-color .2s ease-in-out;
+    /* Firefox 3.0 damage limitation */
+    display: block;
+    width: 0;
+}
+
+
+.services-item{
+    background: #f9f9f9;
+    padding: 30px 20px 20px;
+    margin: 15px 0;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+     -webkit-transition: background .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out;
+             transition: background .5s ease-in-out;
+}
+
+.services-item h4 {
+        color: rgba(254,82,76, 1);
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;
+    -webkit-transition: all .5s ease-in-out;
+       -moz-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+}
+
+
+.services-item p {
+    padding: 0;
+    margin: 0;
+    color:#999;
+    font-size: 16px;
+     -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+             transition: all .2s ease-in-out;
+}
+
+
+.services-item i {
+    color: rgba(254,82,76, 1); /* Primary color, can be changed via colors.css */
+    font-size: 2.5em;
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    position: relative;
+    margin: 0 0 10px 0;
+     -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+             transition: all .2s ease-in-out;
+}
+
+.services-item:hover {
+    background:rgba(254,82,76, 1); /* Primary color, can be changed via colors.css */
+     -webkit-transition: background .2s ease-in-out;
+        -moz-transition: background .2s ease-in-out;
+             transition: background .2s ease-in-out;
+}
+
+
+.services-item:hover h4 {
+    color:#fff;
+            transform: translate(0,-5px);
+     -webkit-transform: translate(0,-5px);
+          -o-transform: translate(0,-5px); 
+        -moz-transform: translate(0,-5px);
+     -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+             transition: all .3s ease-in-out;
+}
+
+.services-item:hover p {
+    color:#fff;
+            transform: translate(0,-10px);
+     -webkit-transform: translate(0,-10px);
+          -o-transform: translate(0,-10px); 
+        -moz-transform: translate(0,-10px);
+     -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+             transition: all .2s ease-in-out;
+}
+
+.services-item:hover i{
+    color:#fff;
+            transform: translate(0,-5px);
+     -webkit-transform: translate(0,-5px);
+          -o-transform: translate(0,-5px); 
+        -moz-transform: translate(0,-5px);
+     -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+             transition: all .2s ease-in-out;
+}
+
+.services-item:hover:before{
+    border-color: #fff #fff #a5a5a5 #a5a5a5;
+    -webkit-transition: border-color .2s ease-in-out;
+       -moz-transition: border-color .2s ease-in-out;
+            transition: border-color .2s ease-in-out;
+}
+
+
+/*------------------------------------------------------ */
+/* Start Feature Section                              */
+/*------------------------------------------------------ */
+
+
+
+.services-section {
+	.feature-2 {
+	    padding-bottom: 80px;
+	    i {
+		   font-size:2.5em;
+		    color: #fff;
+		    width: 70px;
+		    height: 70px;
+		    padding:20px;
+		    position: relative;
+		    
+		}
+	    h4 {
+	    	font-size: 15px;
+	    	color: #666;
+	    	padding-bottom: 10px;
+	    	font-weight: 300;
+	    	font-family: 'Oswald', sans-serif;
+		}
+
+		p {
+	    	color: #444;
+	    	font-size: 13px;
+	    	line-height: 20px;
+	    	font-weight: 300;
+		}
+
+		i {
+		    color:#fff;
+			box-shadow: 0 0 0 30px transparent;
+			-webkit-transform: translate3d(2, 2, 2);
+			-moz-transform: translate3d(2, 2, 2);
+			-o-transform: translate3d(2, 2, 2);
+			transform: translate3d(2, 2, 2);
+			-webkit-transition: box-shadow .6s ease-in-out;
+			-moz-transition: box-shadow .6s ease-in-out;
+			-o-transition: box-shadow .6s ease-in-out;
+			transition: box-shadow .6s ease-in-out;
+		}
+
+		.no-touch .feature:hover i,
+		.no-touch .feature:active i,
+		.no-touch .feature:focus i {		
+			-webkit-transition: box-shadow .4s ease-in-out;
+			-moz-transition: box-shadow .4s ease-in-out;
+			-o-transition: box-shadow .4s ease-in-out;
+			transition: box-shadow .4s ease-in-out;
+		}
+	}
+}
+
+#service-informatique {
+	.feature-2 i {
+	    background: @color-service-info;
+	    border: 1px solid @color-service-info;
+	}
+
+	.feature-2:hover .border {
+	    border-color: @color-service-info;
+	}
+
+	.feature-2:hover i {
+	    background: transparent;
+	    color: @color-service-info;
+	}
+
+	.feature-2 .media-body {
+	    margin-left: 25px !important;
+	}
+
+	.feature-2 .border {
+	    margin-top: 20px;
+	    margin-left: 49.999%;
+	    margin-right: 49.999%;
+		border-color: #fff;
+	}
+
+	.feature-2:hover .border {
+	    margin-left: 0%;
+	    margin-right: 0%;
+	} 
+
+	h3 {
+		padding: 0 0px 10px 10px;
+    	border-bottom: 1px solid @color-service-info;
+    	text-align: center;
+    	margin-bottom: 20px;
+    	font-style: italic;
+    }
+}
+
+#service-telcom {
+	.feature-2 i {
+	    background: @color-service-telcom;
+	    border: 1px solid @color-service-telcom;
+	}
+
+	.feature-2:hover .border {
+	    border-color: @color-service-telcom;
+	}
+
+	.feature-2:hover i {
+	    background: transparent;
+	    color: @color-service-telcom;
+	}
+
+	.feature-2 .media-body {
+	    margin-left: 25px !important;
+	}
+
+	.feature-2 .border {
+	    margin-top: 20px;
+	    margin-left: 49.999%;
+	    margin-right: 49.999%;
+		border-color: #fff;
+	}
+
+	.feature-2:hover .border {
+	    margin-left: 0%;
+	    margin-right: 0%;
+	} 
+
+	h3 {
+		padding: 0 0px 10px 10px;
+    	border-bottom: 1px solid @color-service-telcom;
+    	text-align: center;
+    	margin-bottom: 20px;
+    	font-style: italic;
+    }
+}
+
+#service-embedded {
+	.feature-2 i {
+	    background: @color-service-embedded;
+	    border: 1px solid @color-service-embedded;
+	}
+
+	.feature-2:hover .border {
+	    border-color: @color-service-embedded;
+	}
+
+	.feature-2:hover i {
+	    background: transparent;
+	    color: @color-service-embedded;
+	}
+
+	.feature-2 .media-body {
+	    margin-left: 25px !important;
+	}
+
+	.feature-2 .border {
+	    margin-top: 20px;
+	    margin-left: 49.999%;
+	    margin-right: 49.999%;
+		border-color: #fff;
+	}
+
+	.feature-2:hover .border {
+	    margin-left: 0%;
+	    margin-right: 0%;
+	} 
+
+	h3 {
+		padding: 0 0px 10px 10px;
+    	border-bottom: 1px solid @color-service-embedded;
+    	text-align: center;
+    	margin-bottom: 20px;
+    	font-style: italic;
+    }
+}
+
+
+#services {
+	.carousel-indicators li {
+		border: 1px solid #000;
+	   &.active {
+		  background-color: #000;
+		}
+	}
+}
